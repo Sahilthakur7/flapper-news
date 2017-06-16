@@ -2,7 +2,7 @@ angular.module('flapperNews', ['ui.router', 'templates'])
 .config([
 '$stateProvider',
 '$urlRouterProvider',
-function($stateProvider, $urlRouterProvider){
+function($stateProvider, $urlRouterProvider,$locationProvider){
 $stateProvider
     .state('home', {
         url:'/home',
